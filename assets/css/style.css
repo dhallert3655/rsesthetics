@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    background-color: #B0A8B9;
+    background-image: linear-gradient(to bottom right,black, #B0A8B9);
+}
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B0A8B9;
+}
+#navbar li {
+  float: left;
+}
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;;
+}
+#navbar li a:hover:not(.active){
+    background-color: antiquewhite;
+}
+.active {
+    background-color: mediumslateblue;
+    float: right;
+}
