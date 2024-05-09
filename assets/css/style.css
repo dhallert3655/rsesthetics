@@ -1,29 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
 body{
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #B0A8B9;
     background-image: linear-gradient(to bottom right,black, #B0A8B9);
 }
-#navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #B0A8B9;
+header{
+    background-color:#B0A8B9 ;
 }
-#navbar li {
-  float: left;
+li {
+    list-style: none;
 }
-#navbar li a {
-    display: block;
+a{
     color: white;
+    text-decoration: none;
+}
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+#logo-img{
+    width: 50%;
+    height: 10vh;
+    padding-top: 8px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.nav-branding {
+    font-size: 2rem;
+}
+.nav-link{
+    transition: 0.7 ease;
+}
+.nav-link:hover{
+    color: slateblue;
+}
+
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+#main-photo{
+    max-width: 100%;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;;
+    margin: 10px auto;
 }
-#navbar li a:hover:not(.active){
-    background-color: antiquewhite;
+h2 {
+    color: white;
 }
-.active {
-    background-color: mediumslateblue;
-    float: right;
+#welcome{
+    text-align: center;
+    margin: 10px 50px;;
 }
+
+p{
+    color: white;
+    margin: 25px
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    /* width: 10px; */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+
+@media(max-width: 768px){
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #B0A8B9;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+}
+
+
+
+
+
