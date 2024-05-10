@@ -116,11 +116,14 @@ p{
   }
   
   /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
+  .fa-instagram {
+    background: slateblue;
     color: white;
   }
-
+.fa-tiktok {
+    background: slateblue;
+    color: white;
+}
 
 
 
