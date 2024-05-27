@@ -103,6 +103,10 @@ header {
     height: auto;
 }
 
+#welcome p{
+    margin: 10px 100px 10px 100px;
+}
+
 .welcome-photos {
     display: flex;
     flex-wrap: wrap;
@@ -162,6 +166,27 @@ th {
     margin-top: 20px;
 }
 
+#about {
+    text-align: center;
+}
+#about p{
+    margin: 10px 100px 10px 100px;
+
+}
+.deidre-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.deidre-container p {
+    margin: 10px 100px 10px 100px;
+
+}
+.deidre-container img {
+    width: 45%; /* Makes images smaller */
+    max-width: 500px; /* Ensures they don't get too big */
+    height: auto;
+    margin: 10px;
+}
 
 #main-photo {
     width: 100%;
