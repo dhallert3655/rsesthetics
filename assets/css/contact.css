@@ -8,7 +8,7 @@ input[type=text], input[type=email], select, textarea {
     box-sizing: border-box;
 }
 
-#contactForm input[type=submit] {
+#contactForm button[type=submit] {
     width: 100%; /* Make the submit button take full width */
     background-color: gray;
     color: white;
