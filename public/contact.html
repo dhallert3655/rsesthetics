@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Radiant Soul Esthetics Contact</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="./services.html" class="nav-link">Services</a></li>
+
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <div class="nav-book">
+        <a href="https://radiantsoulesthetics.square.site/" class="book-link">Book Now</a>
+    </div>
+    <div class="logo-photo">
+        <a href="./index.html" class="nav-branding"><img src="./images/IMG_0021.JPG" alt="logo" id="logo-img"></a>
+
+<!-- form starts here -->
+    </div>
+    <h2>Contact Me</h2>
+    <form id="contactForm" action="/send-email" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    
+        <!-- <button type="submit">Submit</button> -->
+    </form>
+  
+
+    <script src="./java/script.js"></script>
+</body>
+</html>

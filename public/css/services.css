@@ -1,0 +1,105 @@
+/* body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+} */
+
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+} */
+
+/* .nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+} */
+
+/* .nav-item {
+    margin-left: 20px;
+} */
+
+/* .nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+} */
+
+/* .nav-link:hover {
+    color: #ff9800;
+} */
+
+/* .hamburger {
+    display: none;
+} */
+
+/* .nav-book {
+    text-align: center;
+    margin: 20px 0;
+} */
+
+/* .book-link {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+} */
+
+.book-link:hover {
+    background-color: plum;
+}
+
+/* .logo-photo {
+    text-align: center;
+    margin: 20px 0;
+} */
+
+/* #logo-img {
+    width: 150px;
+    border-radius: 50%;
+} */
+
+.services {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item {
+    margin-bottom: 40px;
+}
+
+.service-item h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.service-item p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.service-item ul {
+    list-style-type: disc;
+    margin: 10px 0 20px 20px;
+    padding: 0;
+    color: #555;
+}
+
+#price {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: plum;
+}
