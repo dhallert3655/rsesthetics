@@ -1,4 +1,4 @@
-require('dotenv').config();  // Load environment variables from .env file
+require('dotenv').config(); // Load environment variables from .env file
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -25,8 +25,8 @@ app.post('/send-email', (req, res) => {
     const { name, email, message } = req.body;
 
     const msg = {
-        to: 'malcolm.franklin.m@gmail.com', // Replace with your email address
-        from: 'your_verified_email@example.com', // Replace with your verified sender email
+        to: 'info@rsesthetics.com', // Replace with your recipient email address
+        from: 'em4346@rsesthetics.com', // Replace with your verified sender email
         replyTo: email, // Use the email address provided by the user as reply-to
         subject: 'New Contact Form Submission',
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,

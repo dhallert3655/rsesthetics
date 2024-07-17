@@ -4,6 +4,17 @@
     --blkcolor: #000;
 }
 
+@font-face {
+    font-family: 'stayinvilla';
+    src: url('../fonts/Stay\ In\ Villa.ttf');
+    font-weight: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: face;
+    src: url();
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -14,7 +25,7 @@
     font-weight: 400;
     color: rgb(0, 0, 0);
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "stayinvlla", sans-serif; */
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
@@ -22,6 +33,10 @@
 
 body {
     background-color: var(--whtcolor);
+}
+
+.book-link:hover {
+    background-color: plum;
 }
 
 header {
