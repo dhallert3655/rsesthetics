@@ -1,0 +1,115 @@
+:root {
+  --black: #000;
+  --puce: #D07687;
+  --blackRasin: #1E1E24;
+}
+
+
+html {
+  width: auto;
+}
+
+body {
+  /* padding-bottom: 25%;
+  margin-bottom: 100px; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.slider {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.sliderImages {
+  width: 70%;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+  margin-bottom: 100px;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  font-size: 30px;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 30px;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.intro {
+  margin-bottom: 10px;
+}
+
+.serviceContainer {
+  width: 100vh;
+}
+
+.css-0 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.price {
+  margin-top: 0px;
+  color: var(--puce);
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.css-tuh9u2 {
+display: flex;
+align-content: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.services {
+  font-weight: 800;
+  font-size: xx-large;
+}
