@@ -65,7 +65,7 @@ function Footer() {
         <Flex direction="column" align="center" justify="center" color="#fff" p={4}>
           <Box className="address" mb={2} textAlign="center">
             <a
-              className="address"
+              className="address address-link"
               href="https://www.google.com/maps/place/Radiant+Soul+Esthetics/@39.7405506,-105.1057049,15z/data=!4m6!3m5!1s0x876b878bf0851eb5:0x97aed49b20619ce3!8m2!3d39.7405506!4d-105.1057049!16s%2Fg%2F11y3_mq0n1?entry=ttu"
             >
               9629 W Colfax Ave ste 301, Lakewood, CO 80215

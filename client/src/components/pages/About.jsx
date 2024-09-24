@@ -1,4 +1,5 @@
 import profilePic from "../../assets/profile.jpg";
+import { deidre2 } from "../../assets";
 import { Image, Box } from "@chakra-ui/react"
 
 export default function Home() {
@@ -22,7 +23,7 @@ export default function Home() {
                 service, whether it&apos;s a relaxing facial, precise eyebrow microblading, or flawless permanent makeup
                 application. Her goal is to help you achieve your outer glow so that you can radiate from within.</p>
               <Box display="flex" justifyContent="center" align="center">
-              <Image id="aboutImg" objectFit="cover" boxSize="300px" src={profilePic} alt="picture of Deidre"/>
+              <Image id="aboutImg" objectFit="cover" boxSize="500px" src={deidre2} width={400} alt="picture of Deidre"/>
               </Box>
             </Box>
           </Box>

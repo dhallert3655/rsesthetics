@@ -415,3 +415,19 @@ p {
     text-align: justify;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .address-link  {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  
+  .hours-table {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

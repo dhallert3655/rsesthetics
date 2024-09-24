@@ -7,3 +7,4 @@ export {default as esth} from "./esth.jpg";
 export {default as permMakeup} from "./permMakeup.jpeg"
 export {default as waxed} from "./waxed.jpg"
 export {default as bev} from './bev.jpeg'
+export {default as deidre2} from './deidre2.jpg'
