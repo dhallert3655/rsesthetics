@@ -51,7 +51,7 @@
 .app__gallery-images_card {
     position: relative;
     aspect-ratio: 1/1; /* Force square aspect ratio */
-    width: clamp(150px, 25vw, 250px); /* Responsive width that stays within bounds */
+    width: clamp(280px, 40vw, 500px); /* Responsive width that stays within bounds */
     margin: 0 0.5rem;
     flex: 0 0 auto; /* Prevent stretching */
     border-radius: 10px;
@@ -121,7 +121,7 @@
     }
 
     .app__gallery-images_card {
-        width: clamp(150px, 30vw, 220px);
+        width: clamp(260px, 45vw, 350px);
     }
 }
 
@@ -137,7 +137,7 @@
     }
 
     .app__gallery-images_card {
-        width: clamp(150px, 35vw, 180px);
+        width: clamp(240px, 70vw, 300px);
     }
 
     .app__gallery-images_arrows {
@@ -152,7 +152,7 @@
     }
 
     .app__gallery-images_card {
-        width: clamp(120px, 40vw, 150px);
+        width: clamp(220px, 80vw, 280px);
         margin: 0 0.25rem;
     }
 }
