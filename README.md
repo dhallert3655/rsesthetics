@@ -56,4 +56,3 @@ All Rights Reserved. This software and its code are the exclusive property of Ma
   [![express](https://img.shields.io/badge/Express.js-404D59)](https://expressjs.com/)
   [![sendgrid](https://img.shields.io/badge/SendGrid-404D59)](https://sendgrid.com/en-us)
 
-# radiant-soul-esthetics

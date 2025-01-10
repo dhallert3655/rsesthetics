@@ -50,10 +50,10 @@
 
 .app__gallery-images_card {
     position: relative;
-    min-width: 250px; /* Change width to min-width */
-    height: 250px;
-    margin: 0 1rem; /* Adjust margins */
-    flex-shrink: 0;
+    aspect-ratio: 1/1; /* Force square aspect ratio */
+    width: clamp(150px, 25vw, 250px); /* Responsive width that stays within bounds */
+    margin: 0 0.5rem;
+    flex: 0 0 auto; /* Prevent stretching */
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -75,7 +75,8 @@
 .app__gallery-images_card img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures images fill the square without distortion */
+    object-fit: cover;
+    object-position: center;
     opacity: 1;
     transition: opacity 0.5s ease;
 }
@@ -120,8 +121,7 @@
     }
 
     .app__gallery-images_card {
-        min-width: 220px;
-        height: 220px;
+        width: clamp(150px, 30vw, 220px);
     }
 }
 
@@ -137,9 +137,7 @@
     }
 
     .app__gallery-images_card {
-        min-width: 180px;
-        height: 180px;
-        margin: 0 0.5rem;
+        width: clamp(150px, 35vw, 180px);
     }
 
     .app__gallery-images_arrows {
@@ -154,8 +152,7 @@
     }
 
     .app__gallery-images_card {
-        min-width: 150px;
-        height: 150px;
+        width: clamp(120px, 40vw, 150px);
         margin: 0 0.25rem;
     }
 }
