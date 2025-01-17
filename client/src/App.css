@@ -75,6 +75,11 @@ html, body {
   margin: 15px;
 }
 
+.subheading {
+  font-family: stayInVilla, sans-serif;
+  font-size: 45px;
+}
+
 /* Logo */
 .logo {
   height: 6em;
