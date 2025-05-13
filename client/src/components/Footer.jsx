@@ -48,7 +48,7 @@ function Footer() {
                   </tr>
                   <tr>
                     <td>Saturday</td>
-                    <td>9:00 AM - 6:00 PM</td>
+                    <td>10:00 AM - 6:00 PM</td>
                   </tr>
                   <tr>
                     <td>Sunday</td>
